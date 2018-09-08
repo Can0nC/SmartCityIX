@@ -1,0 +1,3 @@
+Develop an IoT solution which provide realtime traffic information to end-user (like Google Maps).
+The system should be able to store the traffic status in memory and provide API to update the status in real time.
+The system also should let the user to select a street from the list, then return current traffic status: High, Medium, Low.
