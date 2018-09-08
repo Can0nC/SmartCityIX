@@ -3,8 +3,17 @@ The system should be able to store the traffic status in memory and provide API 
 The system also should let the user to select a street from the list, then return current traffic status: High, Medium, Low.
 
 Question:
-1. Where do you want the show the result? (Functionality)
-2. How the end user chooses street? (Functionality)
-3. How maxium latency for each request in milisecond? (Performance)
-4. How may estimated request per second? (Capability)
-5. How much street do you want to manage? (Capability)
+Q1. Where do you want the show the result? (Functionality)
+A1. The command line with format: [Street Name] : [Traffic Status]
+
+Q2. How the end user chooses street? (Functionality)
+A2. The command line with list of streets printed
+
+Q3. How maxium latency for each request in milisecond? (Performance)
+A3. Maxium 200ms
+
+Q4. How may estimated request per second? (Capability)
+A3. It's 100 requests/second
+
+Q5. How much street do you want to manage? (Capability)
+A5. 1000 streets (mostly all main streets in HCMC)
