@@ -1,0 +1,16 @@
+Functional Requirement:
++ System store traffic status in real time
+    - System provide API to update traffic status on demand
++ System have ability to show all street on CLI
+    - System have ability to let end user choose a specific street on CLI
++ System have ability to show detailed traffic status (High, Medium, Low) of the choosen street
+
+Non-functional Requirements:
+The system need to be accessable all the time (highly availablity)
+The system need to be very high accurancy
+The system need respeond to end user within 200ms at most (highly performance)
+
+Some Contraint:
+Maxium 200ms latency
+100 requests / seconds
+1000 streets managed
